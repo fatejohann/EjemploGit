@@ -17,7 +17,7 @@ const images = [
     info: 'Conoce programas de reciclaje en tu área y participa activamente para mejorar tu entorno.'
 },
 ];
-export default function HomeScreen({ navigation }) {
+export default function HomeScreen() {
     return (
         <View style={styles.container}>
             <View style={styles.header}>
